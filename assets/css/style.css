@@ -1,0 +1,316 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-top{
+    background-color: orange;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.header-top .header-top-left {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+.header-top .header-top-left span{
+    font-size: 15px;
+    color: white;
+}
+
+.header-top .language{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+.header-top .language span{
+    font-size: 15px;
+    color: white;
+}
+
+.search{
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 90px;
+    
+}
+
+.natlex-image img{
+    width: 90px;
+    height: 50px;
+    margin-left: 50px;
+}
+nav{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.navbar-items{
+     height: 100%;
+     display: flex;
+     justify-content: start;
+     align-items:center;
+     
+}
+.navbar-items a{
+    font-size: 18px;
+    color: gray;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#advert .advert-image{
+    width: 100%;
+    height: 510px;
+
+}
+
+#advert .advert-image img{
+    width: 100%;
+    height: 100%;
+}
+
+#advantage .advantage-letter{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#advantage .advantage-letter h1{
+    font-size: 40px;
+    color: gray;
+
+}
+
+#download .download-image{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+
+}
+
+#download .download-image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.card {
+    position: relative;
+    background-color: #ffa200; 
+    width: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.card:hover{
+    transform: translateY(5px);
+}
+
+.price-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.price-badge span{
+    font-size: 18px;
+    color: #ffa200;
+}
+
+.card h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.details {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.details p {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+}
+
+.details span {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.details hr {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 15px 0;
+}
+
+.details-btn {
+    margin-top: 20px;
+}
+
+.details-btn a {
+    text-decoration: none;
+    background-color: white;
+    color: #ffa200;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+}
+.details-btn a:hover{
+    background-color: black;
+    
+}
+#offers .offer-letter{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#offers .offer-letter h1{
+    font-size: 40px;
+    color: gray;
+
+}
+.offer-items{
+    width:300px;
+    
+}
+.offer{
+    margin-left: 100px;
+    margin-top: 80px;
+    
+
+}
+
+.offer .image{
+    width: 160px;
+    height: 160px;
+}
+.offer .image img{
+    width: 100%;
+    height: 100%;
+}
+
+.offer .offer-link{
+    width: 100%;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.offer .offer-link a{
+    color: gray;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.offer .price{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.offer .price a{
+    text-decoration: none;
+    background-color: white;
+    color: #ffa200;
+    padding: 5px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ffa200;
+
+    
+}
+.offer .price a:hover{
+    background-color: black;
+}
+
+#news{
+    height: 320px;
+    background-color: rgb(216, 213, 213);
+    margin-top: 100px;
+    padding-bottom: 0;
+
+}
+#news .news-letter{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+#news .news-letter h1{
+    font-size: 40px;
+    color: gray;
+}
+
+.news-card .card-items{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.news-card .card-items .link{
+    text-decoration: none;
+    background-color: white;
+    color: #ffa200;
+    padding: 5px 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ffa200;
+    
+}
+
+.footer-up{
+    height: 250px;
+    background-color:rgb(50, 159, 195);
+}
+.items{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.items h1{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.items ul li{
+    list-style: none;
+}
+.items ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    
+}
+
+.footer-down{
+    width: 100%;
+    height: 90px;
+}
+.footer-down img{
+    width: 100%;
+    height: 100%;
+}
